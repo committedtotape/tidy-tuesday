@@ -1,6 +1,8 @@
 library(tidyverse)
 library(ggtext)
 library(extrafont)
+library(here)
+
 pizza_jared <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-10-01/pizza_jared.csv")
 pizza_barstool <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-10-01/pizza_barstool.csv")
 
@@ -68,7 +70,7 @@ ggplot(pizza_both, aes(x = answer_num)) +
         plot.subtitle = element_markdown(size = 11, margin = margin(10,10,10,10)),
         strip.text = element_text(size = 12, colour = "#54743D"))
 
-ggsave("pizza_ratings.png", width = 10, height = 9)
+ggsave(here("2019","week40","pizza_ratings.png"), width = 10, height = 9)
 
 # eat pizza, go to sleep
 

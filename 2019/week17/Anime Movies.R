@@ -1,6 +1,7 @@
 library(tidyverse)
 library(lubridate)
 library(paletteer) #all the palettes
+library(here)
 
 tidy_anime <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-04-23/tidy_anime.csv")
 
@@ -63,4 +64,4 @@ ggplot(tidy_anime_movie, aes(x = decade, y = score)) +
          size = guide_legend(title.position = "top", title.hjust = 0.5,
                              override.aes = list(colour = "white", alpha = 1)))
 
-ggsave("anime movies.png", width = 8, height = 11)
+ggsave(here("2019","week17","anime movies.png"), width = 8, height = 11)

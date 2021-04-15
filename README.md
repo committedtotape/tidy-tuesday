@@ -28,6 +28,12 @@ Repository for all things [Tidy Tuesday](https://github.com/rfordatascience/tidy
   <img width="500" height="562" src="https://github.com/committedtotape/tidy-tuesday/blob/main/2020/week20/volcanic_eruptions.png">
 </p>
 
+### 😱 Year 2019, Week 43: Horror Movie Ratings
+
+<p align="center">
+  <img width="500" height="500" src="https://github.com/committedtotape/tidy-tuesday/blob/main/2019/week40/horror%20movie%20releases.png">
+</p>
+
 ### 🍕 Year 2019, Week 40: All the Pizza
 
 <p align="center">
