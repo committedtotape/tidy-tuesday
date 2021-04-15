@@ -1,6 +1,10 @@
 # Tidy Tuesday  
 
-Repository for all things [Tidy Tuesday](https://github.com/rfordatascience/tidytuesday)
+This is the home for my submissions to the [Tidy Tuesday](https://github.com/rfordatascience/tidytuesday) Project. 
+
+A selection of my previous submissions can be found below.
+
+Stay Safe and Keep It Tidy.
 
 ## 📽️ My Tidy Tuesday Highlights Reel
 
